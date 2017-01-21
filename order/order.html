@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>order-page</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="logo">
+				<a href="../index.html"><p>HOLZ </a>/<br> Заказать</p>
+			</div>
+			<div class="contact">
+				<p>8(8422)76-20-06</p>
+				<a href="mailto:mail@holz.su"><p>mail@holz.su</p></a>
+			</div>
+		</header>
+		<section class="order-info">
+			<div>
+				<p>Для заказа лестницы позвоните нам по телефону +7 937 276-20-06, или пришлите письмо на адрес <a href="mailto:mail@holz.su">mail@holz.su</a></p>
+				<p>После этого к вам приедет замерщик, уточнит детали по лестнице и снимет размеры помещения. В течении 5 рабочих мы подготовим проект, после чего пришлём вам на почту 3D модель вашей лестницы и цену.</p>
+				<div>
+					<p>Пример 3D модели лестницы</p>
+					<iframe src="https://sketchfab.com/models/e1e8892a5e664fe29eb153227b2f8c87/embed" width="640" height="480" frameborder="0" allowfullscreen=""></iframe>
+				</div>
+			</div>
+		</section>
+		<section class="production">
+			<p>Наше производство находится в Ульяновске, по адресу Инженерный 9-й проезд, 37Б</p>
+		</section>
+		<section class="order">
+			<div>
+				<h2>Заявка на изготовление</h2>
+				<form method="post" name="formX" id="form">
+					<label for="name-phone"><p>Контактные данные</p></label>
+					<input type="text" name="contact" id="name-phone" placeholder="Ваше имя, телефон или электронная почта" required><br>
+					<label for="order-info"><p>Информация о заявке</p></label>
+					<textarea name="info" id="order-info" cols="40" rows="3" placeholder="Любая информация о заявке. Например, что вы хотите заказать, куда приехать на замер" required></textarea>
+					<div class="button-block">
+						<button class="send">Отправить</button>
+						<p>Мы ответим вам в течении суток</p>
+					</div>
+				</form>
+			</div>
+			<div class="order-success">
+				<p>Ваша заявка отправлена!<br>
+				В течении суток мы свяжемся с вами</p>
+					<div class="button-block">
+						<button>Отправить ещё заявку</button>
+					</div>
+			</div>
+		</section>
+		<section class="other-project">
+			<h2>Наши проекты</h2>
+		</section>
+		<footer>
+			<div>
+				<h4>Разработка</h4>
+				<p>Антон Сухов</p>
+			</div>
+			<div>
+				<h4>Дизайн</h4>
+				<p>Александр Калашников</p>
+			</div>
+		</footer>
+	</div>
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/script.js"></script>
+</body>
+</html>
